@@ -1,4 +1,4 @@
-📋 QuickList – Tela de Login 
+#📋 QuickList – Tela de Login 
 
 Interface de login desenvolvida como parte de um desafio da Rocketseat, com foco em boas práticas de HTML, CSS e manipulação do DOM com JavaScript. O projeto faz parte de um To-Do List e foi pensado para ser simples, funcional e responsivo, servindo como ponto de entrada para a aplicação principal.
 
