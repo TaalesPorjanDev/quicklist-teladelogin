@@ -21,7 +21,8 @@ O projeto faz parte de um To-Do List e foi pensado para ser simples, funcional e
 <img width="1917" height="1039" alt="Tela de Login" src="https://github.com/user-attachments/assets/528fc9d3-33b2-49eb-9b9b-1e9fe2d35912" />
 
 🌐 Acesse o projeto
-🔗 Clique aqui para visualizar
+
+🔗 https://taalesporjandev.github.io/quicklist-teladelogin/
 
 📦 Como rodar localmente
 
