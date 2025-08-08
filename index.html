@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>QuickList - Tela de Login</title>
+  </head>
+  <body>
+    <div id="page" class="flex">
+      <div>
+        <header>
+          <img src="./assets/logo.svg" alt="Logo quicklist" />
+        </header>
+        <main>
+          <div class="headline">
+            <h1>Acesse a plataforma</h1>
+            <p>Faça seu login ou registe-se para começar a usar.</p>
+          </div>
+          <form>
+            <div class="input-wrapper">
+              <label for="email">E-mail</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                required
+                placeholder="Digite seu e-mail"
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <div class="label-wrapper flex">
+                <label for="senha">Senha</label>
+                <a href="#">Esqueceu a senha?</a>
+              </div>
+
+              <input
+                type="password"
+                id="senha"
+                placeholder="Digite sua senha"
+              />
+              <img
+                onclick="togglePassword()"
+                class="eye"
+                src="./assets/eye-off.svg"
+                alt=""
+              />
+              <img
+                onclick="togglePassword()"
+                class="eye hide"
+                src="./assets/eye.svg"
+                alt=""
+              />
+            </div>
+            <button type="submit">Entrar</button>
+
+            <div class="create-account">
+              Ainda não tem uma conta?
+              <a href="#">Inscreva-se</a>
+            </div>
+          </form>
+        </main>
+      </div>
+      <img src="./assets/background.jpg" alt="" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
